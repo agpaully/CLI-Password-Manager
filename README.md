@@ -130,6 +130,8 @@ Obtain the already added password
 with the result = get-password(service, key)
 -Lastly, the last few lines are also self-explanatory, just asking to get the information stored in row 0 and 1, which we talked about before, are the username and password row. If the service name provided is correct, print the username and password. If the service is not available, print service not found.
 -This fully completes our setup and explanation for this CLI Password Manager.
+ ## Video Walkthrough
+ https://github.com/user-attachments/assets/0f7594bf-7117-4e30-8bce-b148bed8dd95
  ## Research & Sources:
 ~Python Official Documentation: hashlib (Secure hashes and message digests)](https://docs.python.org/3/library/hashlib.html) 
 ~Python Official Documentation: sqlite3 (DB-API 2.0 interface for SQLite databases)](https://docs.python.org/3/library/sqlite3.html) 
