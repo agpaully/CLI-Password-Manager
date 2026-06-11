@@ -1,5 +1,5 @@
 # CLI-Password-Manager
-For this project u created a project manager in a Kali Linux VM environment using tools such as Pyerclip, Getpass, Sqlite3, Hashlib, and Base64.
+For this project Ive created a project manager in a Kali Linux VM environment using tools such as Pyerclip, Getpass, Sqlite3, Hashlib, and Base64.
 Security Concepts-
 -Fernet AES-128-cbc + HMAC = Password encryption
 -PBKDF2 = This is for encrypting the hashed master password.
@@ -130,3 +130,13 @@ Obtain the already added password
 with the result = get-password(service, key)
 -Lastly, the last few lines are also self-explanatory, just asking to get the information stored in row 0 and 1, which we talked about before, are the username and password row. If the service name provided is correct, print the username and password. If the service is not available, print service not found.
 -This fully completes our setup and explanation for this CLI Password Manager.
+Research & Sources:
+~Python Official Documentation: hashlib (Secure hashes and message digests)](https://docs.python.org/3/library/hashlib.html) 
+~Python Official Documentation: sqlite3 (DB-API 2.0 interface for SQLite databases)](https://docs.python.org/3/library/sqlite3.html) 
+~Python Official Documentation: json (JSON encoder and decoder)](https://docs.python.org/3/library/json.html) 
+~Fernet Encryption Specification (GitHub/fernet)](https://github.com/fernet/spec/blob/master/Spec.md) 
+~Stack Overflow: Simple way to encode a string according to a password](https://stackoverflow.com/) 
+~The Python Code: How to Build a Password Manager in Python](https://thepythoncode.com/) * [GeeksforGeeks: SQL Injection Prevention with Parameterized Queries](https://www.geeksforgeeks.org/) 
+~GeeksforGeeks: How to Insert If Not Exists in SQL](https://www.geeksforgeeks.org/) 
+~GeeksforGeeks: Create a JSON Representation of a Folder Structure](https://www.geeksforgeeks.org/) 
+~SQLite Database Security: Best Practices and Techniques](https://sqlite.org/)
